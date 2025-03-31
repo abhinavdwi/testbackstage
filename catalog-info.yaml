@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-kubernetes-app
+  description: An example of a Backstage application.
+  # Example for optional annotations
+  annotations:
+    backstage.io/kubernetes-id: aksbdhpoc
+
+spec:
+  type: service
+  owner: abhinav.dwivedi@honeywell.com
