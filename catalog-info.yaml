@@ -6,6 +6,7 @@ metadata:
   # Example for optional annotations
   annotations:
     backstage.io/kubernetes-id: aksbdhpoc
+    backstage.io/kubernetes-namespace: bdh
 spec:
   type: service
   owner: abhinav.dwivedi@honeywell.com
