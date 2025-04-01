@@ -1,13 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: aksbdhpoc
-  description: An example of a Backstage application.
-  # Example for optional annotations
+  name: my-application
   annotations:
-    backstage.io/kubernetes-id: aksbdhpoc
+    backstage.io/kubernetes-label-selector: app=blackduck
     backstage.io/kubernetes-namespace: bd
+    backstage.io/kubernetes-cluster: aksbdhpoc
 spec:
   type: service
-  owner: abhinav.dwivedi@honeywell.com
-  lifecycle: experimental
+  owner: team-a
+  lifecycle: production
