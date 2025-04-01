@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: my-application
   annotations:
-    backstage.io/kubernetes-label-selector: app:blackduck
+    backstage.io/kubernetes-label-selector: app=blackduck
     backstage.io/kubernetes-namespace: bd
     backstage.io/kubernetes-cluster: aksbdhpoc
 spec:
